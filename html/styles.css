@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  height: 100vh;
+}
+.container {
+  width: 130px;
+  height: 100vh;
+  background-color: #777;
+  color: black;
+}
+
+.kaxiir {
+  list-style: none;
+  margin-left: 0;
+}
+.kaxiir li {
+  margin-left: -55px;
+
+  padding: 18px;
+}
+.kaxiir li:hover {
+  color: rgb(213, 47, 255);
+
+  cursor: pointer;
+}
+#btn {
+  border-radius: 5px;
+  border: none;
+  font-size: 30px;
+  background-color: rebeccapurple;
+}
+#btn:hover {
+  color: rgb(213, 47, 255);
+}
+#btnclose {
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 150px;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 30px;
+  background-color: rebeccapurple;
+}
+#btnclose:hover {
+  color: rgb(213, 47, 255);
+}
+.boton {
+  display: none;
+}
